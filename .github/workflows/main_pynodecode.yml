@@ -59,6 +59,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'pynodecode'
-          slot-name: 'Production'
+          slot-name: 'testslot'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C5BDAA0BAB04E1CB1DE84584A295497 }}
